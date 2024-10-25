@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Witam!"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/buttonChangeColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zmiana koloru"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/buttonChangeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zmiana textu"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonHideTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ukryj tekst"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/buttonOpenNewActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otwórz nową aktywność"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/buttonIncreaseTextSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zwiększ wielkość tekstu"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
